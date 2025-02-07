@@ -49,7 +49,7 @@ vector<int> io_operation()
 
 void score_calculation(const vector<int> v)
 { // lab , pas,quiz,midterm,final
-    float overall_passing_score = 0.1 * v.at(0) + 0.24 * v.at(1) + 0.05 * v.at(2) + 0.25 * v.at(3) + 0.36 * v.at(4);
+    float overall_passing_score = 0.24 * v.at(1) + 0.05 * v.at(2) + 0.25 * v.at(3) + 0.36 * v.at(4);
     float exam_pass = 0.05 * v.at(2) + 0.25 * v.at(3) + 0.36 * v.at(4);
 
     cout << "Your exam only weighted score is: " << exam_pass << endl;
