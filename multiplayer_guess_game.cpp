@@ -2,7 +2,6 @@
 #include <ctime>
 #include <limits>
 #include <cstdlib>
-// #include "gussing_game.h"
 #include <string>
 #include <vector>
 using namespace std;
@@ -119,34 +118,44 @@ void start_game()
         player.push_back(Player::create_player(temp_name, target));
     }
 
-    for (Player& p : player)
-    { // debug
-        cout << p.get_name() << endl;
+    for (Player &p : player)
+    {
         p.set_status(true);
     }
 
     while (true)
     {
         try
-        {
-            for (Player& p : player)
-            {
+        {   bool temp , all=false;
+            for (Player &p : player)
+            {   
+
                 if (p.check_played() == false)
-                {
+                {   
+                    temp = false;
                     continue;
                 }
                 else
-                {
+                {   
+                    temp = true;
                     game_status = p.play();
                     if (game_status == true)
                     {
-                        throw string("game ends");
+                        throw string("game ends!");
                     }
                 }
+                
+                all = temp || false;
             }
+
+            if (all == false) {
+                throw string("You all loose, try again.");
+            }
+
         }
         catch (const string &e)
         {
+            cout << e << endl;
             break;
         }
     }
