@@ -38,18 +38,6 @@ public:
         started = status;
     }
 
-    void set_steps(const int step)
-    {
-        if (started == false && win == true)
-        {
-            return;
-        }
-        if (step >= 0 && step < 6)
-        {
-            steps = step;
-        }
-    }
-
     bool check_played()
     { // ture = win
         if (started == false)
