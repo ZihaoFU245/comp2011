@@ -1,0 +1,5 @@
+Enter the first IPv4 address: Enter the second IPv4 address: Enter which function to test (0: exit, 1: isValidCharacters, 2: isValidNumber, 3: isValidDotUsage, 4: matchAddress): 
+The dot usage of first address is invalid.
+The dot usage of second address is invalid.
+
+Enter which function to test (0: exit, 1: isValidCharacters, 2: isValidNumber, 3: isValidDotUsage, 4: matchAddress): 

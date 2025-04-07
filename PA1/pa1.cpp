@@ -292,5 +292,4 @@ void handleActionRecorder(int numMonsters,
 
     copyCharArray(new_power , monsterPower , numMonsters);
     copyCharArray(new_type , monsterType , numMonsters);
-
 }

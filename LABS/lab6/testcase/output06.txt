@@ -1,0 +1,40 @@
+Welcome to 2D array calculator! Choose an option from below:
+1. Copy a 2D array
+2. Print a 2D array
+3. Broadcast two sizes in the same dimension
+4. Broadcast two 2D arrays and get the resulting 2D array size
+5. Perform arithmetic operations on two 2D arrays (and view them as ASCII arts)
+Your option: Input the arithmetic operation as one character (+-*/): Input the left 2D array:
+2D array height: 2D array width: 2D array data (64 numbers expected):
+Input the right 2D array:
+2D array height: 2D array width: 2D array data (8 numbers expected):
+Calculating...
+Resulting 2D array:
+[[0.000000 20.000000 0.150000 0.000000 0.000000 0.300000 70.000000 0.000000]
+ [0.000000 100.000000 0.550000 0.000000 0.000000 0.700000 150.000000 0.000000]
+ [0.000000 180.000000 0.950000 0.000000 0.000000 1.100000 230.000000 0.000000]
+ [0.000000 260.000000 1.350000 0.000000 0.000000 1.500000 310.000000 0.000000]
+ [0.000000 340.000000 1.750000 0.000000 0.000000 1.900000 390.000000 0.000000]
+ [0.000000 420.000000 2.150000 0.000000 0.000000 2.300000 470.000000 0.000000]
+ [0.000000 500.000000 2.550000 0.000000 0.000000 2.700000 550.000000 0.000000]
+ [0.000000 580.000000 2.950000 0.000000 0.000000 3.100000 630.000000 0.000000]]
+Do you want to view the 2D arrays as ASCII arts? (n: no/y: 0-1/z: 0-255): Left 2D array:
+                
+                
+                
+                
+                
+                
+                
+                
+Right 2D array:
+                
+Resulting 2D array:
+  ``        ;;  
+  ))        pp  
+  gg        &&  
+  @@        @@  
+  @@        @@  
+  @@        @@  
+  @@        @@  
+  @@        @@  

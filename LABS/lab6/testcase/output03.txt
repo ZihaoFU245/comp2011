@@ -1,0 +1,8 @@
+Welcome to 2D array calculator! Choose an option from below:
+1. Copy a 2D array
+2. Print a 2D array
+3. Broadcast two sizes in the same dimension
+4. Broadcast two 2D arrays and get the resulting 2D array size
+5. Perform arithmetic operations on two 2D arrays (and view them as ASCII arts)
+Your option: Left size in a dimension: Right size in the same dimension: Broadcasted 2D array size in the same dimension: 42
+The two sizes in the same dimension are broadcastable
