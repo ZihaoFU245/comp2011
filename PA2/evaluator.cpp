@@ -93,20 +93,17 @@ double evaluate(const char raw_expression[])
         return -1 * result;
     }
     // TODO: implement sqrt and abs , 3th precedence
-    if ((index = max(index_of(expression, "sqrt"), index_of(expression, "abs"))) >= 0)
+    if ((index = index_of(expression, "sqrt")) >= 0)
     {
-        if (index == index_of(expression, "abs"))
-        {
-            substring(expression, index + 3, strlen(expression), rhs);
-            double result = evaluate(rhs);
-            return absolute(result);
-        }
-        if (index == index_of(expression, "sqrt"))
-        {
-            substring(expression, index + 4, strlen(expression), rhs);
-            double result = evaluate(rhs);
-            return square_root(result);
-        }
+        substring(expression, index + 4, strlen(expression), rhs);
+        double result = evaluate(rhs);
+        return square_root(result);
+    }
+    if ((index = index_of(expression, "abs")) >= 0)
+    {
+        substring(expression, index + 3, strlen(expression), rhs);
+        double result = evaluate(rhs);
+        return absolute(result);
     }
     // Implement !
     if ((index = index_of(expression, "!")) > 0)
