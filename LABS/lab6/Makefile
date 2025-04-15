@@ -1,65 +1,68 @@
-# config
-TARGET_NAME := main
+# Compiler to use
+CXX = g++
 
-SRC_DIR := .
-BUILD_DIR := build
+# Compiler flags:
+# -std=c++11  : Use C++11 standard
+# -g          : Add debugging information
+# -Wall       : Enable all basic warnings
+# -Wextra     : Enable extra warnings
+# -Wpedantic  : Issue warnings demanded by strict ISO C and ISO C++
+CXXFLAGS = -std=c++11 -g -Wall -Wextra -Wpedantic
 
-# tools
-CXX ?= g++
-ifeq (Windows_NT,$(OS))
-	CMD_RM := del
-	CMD_MKDIR := mkdir
-else
-	CMD_RM := rm -fv
-	CMD_MKDIR := mkdir -p
-endif
+# Additional flags for generating header dependencies
+CPPFLAGS = -MMD -MP
 
-CXXFLAGS := -std=c++11 -g -Wall -Wextra -Wpedantic
-CXXOBJFLAGS := -c $(CXXFLAGS)
+# Directory for object files and dependency files
+BUILD_DIR = build
 
-# files
-SRC_FILES := $(wildcard $(SRC_DIR)/*.cpp)
-OBJ_FILES := $(patsubst $(SRC_DIR)/%.cpp,$(BUILD_DIR)/%.o,$(SRC_FILES))
-DEP_FILES := $(OBJ_FILES:.o=.d)
+# Source files (all .cpp files)
+SRCS = ascii_art.cpp main.cpp twod_array.cpp
 
-TARGET := $(TARGET_NAME)
-ifeq (Windows_NT,$(OS))
-	TARGET := $(addsuffix .exe,$(TARGET))
-endif
+# Object files (replace .cpp with .o and add BUILD_DIR prefix)
+OBJS = $(SRCS:%.cpp=$(BUILD_DIR)/%.o)
 
-CLEAN_FILES := $(OBJ_FILES) $(DEP_FILES)
-DISTCLEAN_FILES := $(CLEAN_FILES) $(TARGET)
+# Dependency files (one per source file)
+DEPS = $(OBJS:.o=.d)
 
-# default target
-.PHONY: default
-default: build
+# Name of the final executable
+TARGET = main.exe
 
-# commands
-.PHONY: all
-all: build
+# Default target (first target is default)
+all: $(TARGET)
 
-.PHONY: build
-build: $(TARGET)
+# Rule to create the build directory
+$(BUILD_DIR):
+	mkdir -p $(BUILD_DIR)
 
-.PHONY: clean
+# Rule to create the final executable
+# Links all object files together
+$(TARGET): $(OBJS)
+	$(CXX) $(OBJS) -o $(TARGET)
+
+# Rule to compile source files to object files
+# $@ = target file name
+# $< = first prerequisite name (the .cpp file)
+$(BUILD_DIR)/%.o: %.cpp | $(BUILD_DIR)
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -c $< -o $@
+
+# Include dependency files
+-include $(DEPS)
+
+# Clean rule to remove generated files
 clean:
-	@echo cleaning $(CLEAN_FILES)
-	-$(CMD_RM) $(CLEAN_FILES)
+	del /Q $(BUILD_DIR)\*.o $(BUILD_DIR)\*.d
 
-.PHONY: distclean
-distclean:
-	@echo cleaning $(DISTCLEAN_FILES)
-	-$(CMD_RM) $(DISTCLEAN_FILES)
+# Deeper clean (removes executable too)
+distclean: clean
+	del /Q $(TARGET)
 
-# file targets
-$(TARGET): $(OBJ_FILES)
-	$(CXX) $(CXXFLAGS) -o $@ $^
+# .PHONY tells Make these targets don't create files
+.PHONY: all clean distclean
 
-$(BUILD_DIR)/%.o: $(SRC_DIR)/%.c*
-	@$(CMD_MKDIR) $(@D)
-	$(CXX) $(CXXOBJFLAGS) -o $@ $<
-
-# automatic dependency graph generation
-CXXFLAGS += -MMD -MP
-CXXOBJFLAGS += -MMD -MP
--include $(DEP_FILES)
+# Help target to display available commands
+help:
+	@echo Available targets:
+	@echo   all        : Build the executable (default target)
+	@echo   clean      : Remove object files and dependency files
+	@echo   distclean  : Remove all generated files including executable
+	@echo   help       : Display this help message

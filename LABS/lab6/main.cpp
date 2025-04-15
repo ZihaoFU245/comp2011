@@ -6,8 +6,6 @@
 
 #include "ascii_art.hpp"
 #include "twod_array.hpp"
-#include "twod_array.cpp"
-#include "ascii_art.cpp"
 
 /**
  * @brief Number to represent a garbage value for a 2D array size.
