@@ -1,0 +1,68 @@
+
+1
+3
+COMP 2011 - Programming with C++ (4 units)
+This course covers programming and data structures using C++. In addition to basic programming concepts such as variables and control statements, students will learn about arrays, pointers, dynamic data allocation, linked lists, stacks, queues, binary trees, recursion, and the basics of object oriented programming.
+3
+COMP 2012 - Object-Oriented Programming and Data Structures (4 units)
+To learn the fundamental concepts and techniques behind object-oriented programming. They include: abstract data types; creation, initialization, and destruction of objects; class hierarchies; polymorphism, inheritance and dynamic binding; generic programming using templates. To learn the object-oriented view of data structures: linked lists, stacks, queues, binary trees, and algorithms such as searching and hashing.
+3
+COMP 2211 - Exploring Artificial Intelligence (3 units)
+This course provides a gentle introduction to artificial intelligence (AI), and emphasizes hands-on practical experiences with Python and AI software tools to explore AI applications. Interesting applications that have been covered in previous class offerings include, but are not limited to, medical diagnosis, predictions of customer behaviour and user attitudes, character recognition, spam mail detection, text and image classifications and recognitions, sentiment analysis, and retinal vessel segmentation. The course also explores recent advances and discusses the history and ethics of AI. Only for students in their first and second year of study or those with approval from instructor by applying requisite waiver.
+3
+COMP 2611 - Computer Organization (4 units)
+Inner workings of modern digital computer systems and tradeoffs at the hardware-software interface. Topics include: instructions set design, memory systems, input-output systems, interrupts and exceptions, pipelining, performance and cost analysis, assembly language programming, and a survey of advanced architectures.
+3
+COMP 2711 - Discrete Mathematical Tools for Computer Science (4 units)
+Basic concepts in discrete mathematics needed for the study of computer science: enumeration techniques, basic number theory, logic and proofs, recursion and recurrences, probability theory and graph theory. The approach of this course is specifically computer science application oriented.
+1
+2
+COMP 2711 - Discrete Mathematical Tools for Computer Science (4 units)
+2
+COMP 2711H - Honors Discrete Mathematical Tools for Computer Science (4 units)
+3
+COMP 2021 - Unix and Script Programming (3 units)
+Unix utilities and file structure; links and symbolic links; data processing and process control in the Unix shell; Shell programming; regular expressions; script programming in the Unix environment. Laboratory exercises are designed to give hands-on practice with software tools and to increase programmer productivity.
+3
+COMP 2521 - Mobile Application Development Projects (3 units)
+This course is intended to bring together students from different disciplines to focus on coming up with innovative mobile solutions to address domain-specific problems. This will be a student-led project-based course. Teams of students will focus on developing applications to address the needs of specific application domains. Learning additional technical knowledge will be demand-driven in self-learning mode. Students will be supported by technical advisors, which include a faculty member who is the main instructor, as well as instructional assistant(s) and student helpers with technical knowledge.
+5
+COMP 2012 - Object-Oriented Programming and Data Structures (4 units)
+COMP 2012H - Honors Object-Oriented Programming and Data Structures (5 units)
+6
+COMP 2012H - Honors Object-Oriented Programming and Data Structures (5 units)
+This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming (OOP) and data structures using an OOP language. It covers the major materials of COMP2011 and COMP2012, and its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include: functions; pointers; abstract data types and their class implementation; static and dynamic construction and destruction of objects; data member and member functions; public interface and encapsulation; class hierarchies; polymorphism; inheritance and dynamic binding; standard template library; generic programming using templates; object-oriented view of data structures: linked lists, queues, stacks, trees, and their algorithms such as searching, sorting and hashing.
+5
+COMP 2011 - Programming with C++ (4 units)
+COMP 2012H - Honors Object-Oriented Programming and Data Structures (5 units)
+4
+COMP 2011 - Programming with C++ (4 units)
+6
+COMP 2012H - Honors Object-Oriented Programming and Data Structures (5 units)
+Programming; data structures; variables; control statements; pattern matching; references; arrays; slices; mutability; lifetimes; borrow checker
+5
+COMP 2012H - Honors Object-Oriented Programming and Data Structures (5 units)
+COMP 2013 - Programming with Rust (4 units)
+7
+COMP 2013 - Programming with Rust (4 units)
+; object oriented programming; data races; algebraic data types; higher-order functions.
+8
+Programming
+8
+3 units
+5
+COMP 2013 - Programming with Rust (4 units)
+COMP 2013 - Programming with Rust (4 units)
+8
+4 units
+3
+COMP 2013 - Programming with Rust (4 units)
+Rust is the best!
+8
+5 units
+8
+Honors
+8
+ISOM
+0
+-

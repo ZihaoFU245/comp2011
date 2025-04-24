@@ -1,0 +1,265 @@
+Welcome to note-taking system!
+Initializing...
+Read notes from (empty to skip, '-' for stdin): Skipped reading notes
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 0 note(s)
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 1 note(s)
+1. Category theory: Category theory is a general theory of mathematical structures and their relations.
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 2 note(s)
+1. Category theory: Category theory is a general theory of mathematical structures and their relations.
+2. Morphism: A morphism is a concept of category theory that generalizes structure-preserving maps such as homomo...
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Query: 1. Category theory: Category theory is a general theory of mathematical structures and their relations.
+Found 1 note(s)
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Query: 2. Morphism: A morphism is a concept of category theory that generalizes structure-preserving maps such as homomo...
+Found 1 note(s)
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 3 note(s)
+1. Category theory: Category theory is a general theory of mathematical structures and their relations.
+2. Morphism: A morphism is a concept of category theory that generalizes structure-preserving maps such as homomo...
+3. Functor: A functor is a mapping between categories.
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 4 note(s)
+1. Category theory: Category theory is a general theory of mathematical structures and their relations.
+2. Morphism: A morphism is a concept of category theory that generalizes structure-preserving maps such as homomo...
+3. Functor: A functor is a mapping between categories.
+4. Category: A category (sometimes called an abstract category to distinguish it from a concrete category) is a c...
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Query: 2. Morphism: A morphism is a concept of category theory that generalizes structure-preserving maps such as homomo...
+4. Category: A category (sometimes called an abstract category to distinguish it from a concrete category) is a c...
+Found 2 note(s)
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Query: 1. Category theory: Category theory is a general theory of mathematical structures and their relations.
+4. Category: A category (sometimes called an abstract category to distinguish it from a concrete category) is a c...
+Found 2 note(s)
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 5 note(s)
+1. Category theory: Category theory is a general theory of mathematical structures and their relations.
+2. Morphism: A morphism is a concept of category theory that generalizes structure-preserving maps such as homomo...
+3. Functor: A functor is a mapping between categories.
+4. Category: A category (sometimes called an abstract category to distinguish it from a concrete category) is a c...
+5. Category of sets: The category of sets, denoted by Set, is the category whose objects are sets. The arrows or morphism...
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Query: 1. Category theory: Category theory is a general theory of mathematical structures and their relations.
+2. Morphism: A morphism is a concept of category theory that generalizes structure-preserving maps such as homomo...
+3. Functor: A functor is a mapping between categories.
+4. Category: A category (sometimes called an abstract category to distinguish it from a concrete category) is a c...
+5. Category of sets: The category of sets, denoted by Set, is the category whose objects are sets. The arrows or morphism...
+Found 5 note(s)
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Query: 2. Morphism: A morphism is a concept of category theory that generalizes structure-preserving maps such as homomo...
+5. Category of sets: The category of sets, denoted by Set, is the category whose objects are sets. The arrows or morphism...
+Found 2 note(s)
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Query: Found 0 note(s)
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Quitting!
+==========================================
+File to write notes to (empty to skip, '-' for stdout): 5
+15
+Category theory
+83
+Category theory is a general theory of mathematical structures and their relations.
+8
+Morphism
+225
+A morphism is a concept of category theory that generalizes structure-preserving maps such as homomorphism between algebraic structures, functions from a set to another set, and continuous functions between topological spaces
+7
+Functor
+42
+A functor is a mapping between categories.
+8
+Category
+151
+A category (sometimes called an abstract category to distinguish it from a concrete category) is a collection of "objects" that are linked by "arrows".
+16
+Category of sets
+219
+The category of sets, denoted by Set, is the category whose objects are sets. The arrows or morphisms between sets A and B are the functions from A to B, and the composition of morphisms is the composition of functions.
+Notes written
+Cleaning up...
+See you!

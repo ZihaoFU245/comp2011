@@ -1,0 +1,1817 @@
+Welcome to note-taking system!
+Initializing...
+Read notes from (empty to skip, '-' for stdin): Skipped reading notes
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 0 note(s)
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 1 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 2 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 3 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 4 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 5 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 6 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 7 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 8 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 9 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content to append: Note not found
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 9 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 10 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 11 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content to append: Note appended
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 11 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: New title: Note not found or new note title already exists
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 11 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 12 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: d----          2025-01-21    09:22
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 13 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: d----          2025-01-21    09:22
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: New content: Note edited
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 13 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 14 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 15 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 16 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 17 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 18 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 19 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: New content: Note not found
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: New content: Note edited
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 20 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+20. RtmpGkLeBA: testing
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 21 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+20. RtmpGkLeBA: testing
+21. RtmpgL4gH1: d----          2025-01-26    14:18
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: New title: Note renamed
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 21 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+20. RtmpGkLeBA: testing
+21. RtmpgpFiiT: d----          2025-01-26    14:18
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note title already exists or too many notes
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 21 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+20. RtmpGkLeBA: testing
+21. RtmpgpFiiT: d----          2025-01-26    14:18
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 22 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+20. RtmpGkLeBA: testing
+21. RtmpgpFiiT: d----          2025-01-26    14:18
+22. RtmpI1FPpv: d----          2025-01-24    20:42
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 23 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+20. RtmpGkLeBA: testing
+21. RtmpgpFiiT: d----          2025-01-26    14:18
+22. RtmpI1FPpv: d----          2025-01-24    20:42
+23. RtmpiCHnqQ: d----          2025-01-20    09:25
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 24 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+20. RtmpGkLeBA: testing
+21. RtmpgpFiiT: d----          2025-01-26    14:18
+22. RtmpI1FPpv: d----          2025-01-24    20:42
+23. RtmpiCHnqQ: d----          2025-01-20    09:25
+24. RtmpIf4A4B: d----          2025-01-20    13:03
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 25 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+20. RtmpGkLeBA: testing
+21. RtmpgpFiiT: d----          2025-01-26    14:18
+22. RtmpI1FPpv: d----          2025-01-24    20:42
+23. RtmpiCHnqQ: d----          2025-01-20    09:25
+24. RtmpIf4A4B: d----          2025-01-20    13:03
+25. RtmpiiMPL4: d----          2025-01-23    14:39
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: New title: Note not found or new note title already exists
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 25 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+20. RtmpGkLeBA: testing
+21. RtmpgpFiiT: d----          2025-01-26    14:18
+22. RtmpI1FPpv: d----          2025-01-24    20:42
+23. RtmpiCHnqQ: d----          2025-01-20    09:25
+24. RtmpIf4A4B: d----          2025-01-20    13:03
+25. RtmpiiMPL4: d----          2025-01-23    14:39
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: New title: Note not found or new note title already exists
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 25 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+20. RtmpGkLeBA: testing
+21. RtmpgpFiiT: d----          2025-01-26    14:18
+22. RtmpI1FPpv: d----          2025-01-24    20:42
+23. RtmpiCHnqQ: d----          2025-01-20    09:25
+24. RtmpIf4A4B: d----          2025-01-20    13:03
+25. RtmpiiMPL4: d----          2025-01-23    14:39
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 26 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+20. RtmpGkLeBA: testing
+21. RtmpgpFiiT: d----          2025-01-26    14:18
+22. RtmpI1FPpv: d----          2025-01-24    20:42
+23. RtmpiCHnqQ: d----          2025-01-20    09:25
+24. RtmpIf4A4B: d----          2025-01-20    13:03
+25. RtmpiiMPL4: d----          2025-01-23    14:39
+26. RtmpIRagpd: d----          2025-01-20    16:34
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 27 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+20. RtmpGkLeBA: testing
+21. RtmpgpFiiT: d----          2025-01-26    14:18
+22. RtmpI1FPpv: d----          2025-01-24    20:42
+23. RtmpiCHnqQ: d----          2025-01-20    09:25
+24. RtmpIf4A4B: d----          2025-01-20    13:03
+25. RtmpiiMPL4: d----          2025-01-23    14:39
+26. RtmpIRagpd: d----          2025-01-20    16:34
+27. RtmpKqqxFI: d----          2025-01-23    13:05
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 28 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+20. RtmpGkLeBA: testing
+21. RtmpgpFiiT: d----          2025-01-26    14:18
+22. RtmpI1FPpv: d----          2025-01-24    20:42
+23. RtmpiCHnqQ: d----          2025-01-20    09:25
+24. RtmpIf4A4B: d----          2025-01-20    13:03
+25. RtmpiiMPL4: d----          2025-01-23    14:39
+26. RtmpIRagpd: d----          2025-01-20    16:34
+27. RtmpKqqxFI: d----          2025-01-23    13:05
+28. RtmpkrUjno: d----          2025-01-26    11:26
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 29 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+20. RtmpGkLeBA: testing
+21. RtmpgpFiiT: d----          2025-01-26    14:18
+22. RtmpI1FPpv: d----          2025-01-24    20:42
+23. RtmpiCHnqQ: d----          2025-01-20    09:25
+24. RtmpIf4A4B: d----          2025-01-20    13:03
+25. RtmpiiMPL4: d----          2025-01-23    14:39
+26. RtmpIRagpd: d----          2025-01-20    16:34
+27. RtmpKqqxFI: d----          2025-01-23    13:05
+28. RtmpkrUjno: d----          2025-01-26    11:26
+29. RtmpkVWyNj: d----          2025-01-20    07:06
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 30 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+20. RtmpGkLeBA: testing
+21. RtmpgpFiiT: d----          2025-01-26    14:18
+22. RtmpI1FPpv: d----          2025-01-24    20:42
+23. RtmpiCHnqQ: d----          2025-01-20    09:25
+24. RtmpIf4A4B: d----          2025-01-20    13:03
+25. RtmpiiMPL4: d----          2025-01-23    14:39
+26. RtmpIRagpd: d----          2025-01-20    16:34
+27. RtmpKqqxFI: d----          2025-01-23    13:05
+28. RtmpkrUjno: d----          2025-01-26    11:26
+29. RtmpkVWyNj: d----          2025-01-20    07:06
+30. RtmpySKkxX: d----          2025-01-26    11:26
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: New title: Note not found or new note title already exists
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 30 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+20. RtmpGkLeBA: testing
+21. RtmpgpFiiT: d----          2025-01-26    14:18
+22. RtmpI1FPpv: d----          2025-01-24    20:42
+23. RtmpiCHnqQ: d----          2025-01-20    09:25
+24. RtmpIf4A4B: d----          2025-01-20    13:03
+25. RtmpiiMPL4: d----          2025-01-23    14:39
+26. RtmpIRagpd: d----          2025-01-20    16:34
+27. RtmpKqqxFI: d----          2025-01-23    13:05
+28. RtmpkrUjno: d----          2025-01-26    11:26
+29. RtmpkVWyNj: d----          2025-01-20    07:06
+30. RtmpySKkxX: d----          2025-01-26    11:26
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: New title: Note renamed
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 30 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+20. RtmpGkLeBA: testing
+21. RtmpgpFiiT: d----          2025-01-26    14:18
+22. RtmpI1FPpv: d----          2025-01-24    20:42
+23. RtmpiCHnqQ: d----          2025-01-20    09:25
+24. RtmpIf4A4B: d----          2025-01-20    13:03
+25. RtmpiiMPL4: d----          2025-01-23    14:39
+26. RtmpIRagpd: d----          2025-01-20    16:34
+27. RtmpKqqxFI: d----          2025-01-23    13:05
+28. RtmpkrUjno: d----          2025-01-26    11:26
+29. abc: d----          2025-01-20    07:06
+30. RtmpySKkxX: d----          2025-01-26    11:26
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: New title: Note renamed
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 30 note(s)
+1. Rtmp2hq3LR: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+20. RtmpGkLeBA: testing
+21. RtmpgpFiiT: d----          2025-01-26    14:18
+22. RtmpI1FPpv: d----          2025-01-24    20:42
+23. RtmpiCHnqQ: d----          2025-01-20    09:25
+24. RtmpIf4A4B: d----          2025-01-20    13:03
+25. RtmpiiMPL4: d----          2025-01-23    14:39
+26. RtmpIRagpd: d----          2025-01-20    16:34
+27. RtmpKqqxFI: d----          2025-01-23    13:05
+28. RtmpkrUjno: d----          2025-01-26    11:26
+29. RtmpkVWyNj: d----          2025-01-20    07:06
+30. RtmpySKkxX: d----          2025-01-26    11:26
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: New title: Note renamed
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 30 note(s)
+1. xyz: d----          2025-01-20    09:25
+2. Rtmp2PqdE7: d----          2025-01-21    23:59
+3. Rtmp2ZIFjD: d----          2025-01-20    07:06
+4. Rtmp6v0eGn: d----          2025-01-19    16:40
+5. Rtmp8AEckC: d----          2025-01-26    14:18
+6. Rtmp8MUbI7: d----          2025-01-26    14:18
+7. Rtmpa0QGhK: d----          2025-01-23    13:06
+8. Rtmpa0yFnt: d----          2025-01-20    07:06
+9. RtmpacvkhV: d----          2025-01-24    13:33
+10. RtmpAdgbd1: d----          2025-01-26    11:26
+11. RtmpCcKNLy: d----          2025-01-23    01:30sus document
+12. Rtmpcl0KK4: Category theory is a general theory of mathematical structures and their relations.
+13. RtmpcxhmAU: d----          2025-01-23    01:30
+14. Rtmpe4zPok: d----          2025-01-21    23:59
+15. RtmpElw4E5: d----          2025-01-24    20:42
+16. RtmpEz1Qon: d----          2025-01-24    09:55
+17. Rtmpg1supJ: d----          2025-01-26    10:17
+18. RtmpG6J6A4: d----          2025-01-22    12:45
+19. RtmpGGfDnI: d----          2025-01-26    14:18
+20. RtmpGkLeBA: testing
+21. RtmpgpFiiT: d----          2025-01-26    14:18
+22. RtmpI1FPpv: d----          2025-01-24    20:42
+23. RtmpiCHnqQ: d----          2025-01-20    09:25
+24. RtmpIf4A4B: d----          2025-01-20    13:03
+25. RtmpiiMPL4: d----          2025-01-23    14:39
+26. RtmpIRagpd: d----          2025-01-20    16:34
+27. RtmpKqqxFI: d----          2025-01-23    13:05
+28. RtmpkrUjno: d----          2025-01-26    11:26
+29. RtmpkVWyNj: d----          2025-01-20    07:06
+30. RtmpySKkxX: d----          2025-01-26    11:26
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Quitting!
+==========================================
+File to write notes to (empty to skip, '-' for stdout): 30
+3
+xyz
+34
+d----          2025-01-20    09:25
+10
+Rtmp2PqdE7
+34
+d----          2025-01-21    23:59
+10
+Rtmp2ZIFjD
+34
+d----          2025-01-20    07:06
+10
+Rtmp6v0eGn
+34
+d----          2025-01-19    16:40
+10
+Rtmp8AEckC
+34
+d----          2025-01-26    14:18
+10
+Rtmp8MUbI7
+34
+d----          2025-01-26    14:18
+10
+Rtmpa0QGhK
+34
+d----          2025-01-23    13:06
+10
+Rtmpa0yFnt
+34
+d----          2025-01-20    07:06
+10
+RtmpacvkhV
+34
+d----          2025-01-24    13:33
+10
+RtmpAdgbd1
+34
+d----          2025-01-26    11:26
+10
+RtmpCcKNLy
+46
+d----          2025-01-23    01:30sus document
+10
+Rtmpcl0KK4
+83
+Category theory is a general theory of mathematical structures and their relations.
+10
+RtmpcxhmAU
+34
+d----          2025-01-23    01:30
+10
+Rtmpe4zPok
+34
+d----          2025-01-21    23:59
+10
+RtmpElw4E5
+34
+d----          2025-01-24    20:42
+10
+RtmpEz1Qon
+34
+d----          2025-01-24    09:55
+10
+Rtmpg1supJ
+34
+d----          2025-01-26    10:17
+10
+RtmpG6J6A4
+34
+d----          2025-01-22    12:45
+10
+RtmpGGfDnI
+34
+d----          2025-01-26    14:18
+10
+RtmpGkLeBA
+7
+testing
+10
+RtmpgpFiiT
+34
+d----          2025-01-26    14:18
+10
+RtmpI1FPpv
+34
+d----          2025-01-24    20:42
+10
+RtmpiCHnqQ
+34
+d----          2025-01-20    09:25
+10
+RtmpIf4A4B
+34
+d----          2025-01-20    13:03
+10
+RtmpiiMPL4
+34
+d----          2025-01-23    14:39
+10
+RtmpIRagpd
+34
+d----          2025-01-20    16:34
+10
+RtmpKqqxFI
+34
+d----          2025-01-23    13:05
+10
+RtmpkrUjno
+34
+d----          2025-01-26    11:26
+10
+RtmpkVWyNj
+34
+d----          2025-01-20    07:06
+10
+RtmpySKkxX
+34
+d----          2025-01-26    11:26
+Notes written
+Cleaning up...
+See you!

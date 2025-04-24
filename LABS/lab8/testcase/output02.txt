@@ -1,0 +1,414 @@
+Welcome to note-taking system!
+Initializing...
+Read notes from (empty to skip, '-' for stdin): Skipped reading notes
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 0 note(s)
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Note not found
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 1 note(s)
+1. Test: Not some content here
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 2 note(s)
+1. Test: Not some content here
+2. C string functions: This lab also serves as an exercise on manipulating C strings. So we will introduce a few functions ...
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Note not found
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 2 note(s)
+1. Test: Not some content here
+2. C string functions: This lab also serves as an exercise on manipulating C strings. So we will introduce a few functions ...
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Note removed
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 1 note(s)
+1. C string functions: This lab also serves as an exercise on manipulating C strings. So we will introduce a few functions ...
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Title: C string functions
+Content:
+This lab also serves as an exercise on manipulating C strings. So we will introduce a few functions that manipulate C strings.
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 2 note(s)
+1. C string functions: This lab also serves as an exercise on manipulating C strings. So we will introduce a few functions ...
+2. `std::strstr`: If the C string needle is contained in the C string haystack (i.e. needle is a substring of haystack...
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 3 note(s)
+1. C string functions: This lab also serves as an exercise on manipulating C strings. So we will introduce a few functions ...
+2. `std::strstr`: If the C string needle is contained in the C string haystack (i.e. needle is a substring of haystack...
+3. `std::strcmp`: Compares two C strings lhs and rhs lexicographically.
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note title already exists or too many notes
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 3 note(s)
+1. C string functions: This lab also serves as an exercise on manipulating C strings. So we will introduce a few functions ...
+2. `std::strstr`: If the C string needle is contained in the C string haystack (i.e. needle is a substring of haystack...
+3. `std::strcmp`: Compares two C strings lhs and rhs lexicographically.
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note title already exists or too many notes
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 3 note(s)
+1. C string functions: This lab also serves as an exercise on manipulating C strings. So we will introduce a few functions ...
+2. `std::strstr`: If the C string needle is contained in the C string haystack (i.e. needle is a substring of haystack...
+3. `std::strcmp`: Compares two C strings lhs and rhs lexicographically.
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note title already exists or too many notes
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 3 note(s)
+1. C string functions: This lab also serves as an exercise on manipulating C strings. So we will introduce a few functions ...
+2. `std::strstr`: If the C string needle is contained in the C string haystack (i.e. needle is a substring of haystack...
+3. `std::strcmp`: Compares two C strings lhs and rhs lexicographically.
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Note removed
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 2 note(s)
+1. `std::strstr`: If the C string needle is contained in the C string haystack (i.e. needle is a substring of haystack...
+2. `std::strcmp`: Compares two C strings lhs and rhs lexicographically.
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Note not found
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 2 note(s)
+1. `std::strstr`: If the C string needle is contained in the C string haystack (i.e. needle is a substring of haystack...
+2. `std::strcmp`: Compares two C strings lhs and rhs lexicographically.
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 3 note(s)
+1. `std::strstr`: If the C string needle is contained in the C string haystack (i.e. needle is a substring of haystack...
+2. `std::strcmp`: Compares two C strings lhs and rhs lexicographically.
+3. C string functions: So we will introduce a few functions that manipulate C strings.
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Title: `std::strstr`
+Content:
+If the C string needle is contained in the C string haystack (i.e. needle is a substring of haystack), then it returns a pointer that points to the first occurrence of needle in haystack.
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Title: C string functions
+Content:
+So we will introduce a few functions that manipulate C strings.
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Note removed
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 2 note(s)
+1. `std::strstr`: If the C string needle is contained in the C string haystack (i.e. needle is a substring of haystack...
+2. C string functions: So we will introduce a few functions that manipulate C strings.
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Note not found
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Quitting!
+==========================================
+File to write notes to (empty to skip, '-' for stdout): 2
+13
+`std::strstr`
+187
+If the C string needle is contained in the C string haystack (i.e. needle is a substring of haystack), then it returns a pointer that points to the first occurrence of needle in haystack.
+18
+C string functions
+63
+So we will introduce a few functions that manipulate C strings.
+Notes written
+Cleaning up...
+See you!

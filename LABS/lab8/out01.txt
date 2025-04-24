@@ -1,0 +1,344 @@
+Welcome to note-taking system!
+Initializing...
+Read notes from (empty to skip, '-' for stdin): Skipped reading notes
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 0 note(s)
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: There are 5 note(s)
+1. COMP 2011 - Programming with C++ (4 units): This course covers programming and data structures using C++. In addition to basic programming conce...
+2. COMP 2012 - Object-Oriented Programming and Data Structures (4 units): To learn the fundamental concepts and techniques behind object-oriented programming. They include: a...
+3. COMP 2211 - Exploring Artificial Intelligence (3 units): This course provides a gentle introduction to artificial intelligence (AI), and emphasizes hands-on ...
+4. COMP 2611 - Computer Organization (4 units): Inner workings of modern digital computer systems and tradeoffs at the hardware-software interface. ...
+5. COMP 2711 - Discrete Mathematical Tools for Computer Science (4 units): Basic concepts in discrete mathematics needed for the study of computer science: enumeration techniq...
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Title: COMP 2711 - Discrete Mathematical Tools for Computer Science (4 units)
+Content:
+Basic concepts in discrete mathematics needed for the study of computer science: enumeration techniques, basic number theory, logic and proofs, recursion and recurrences, probability theory and graph theory. The approach of this course is specifically computer science application oriented.
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Note not found
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note added
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: New title: Note renamed
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: New content: Note edited
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: New title: Note not found or new note title already exists
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Note removed
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: New content: Note edited
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: New title: Note renamed
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content to append: Note appended
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Query: 1. COMP 2013 - Programming with Rust (4 units): Programming; data structures; variables; control statements; pattern matching; references; arrays; s...
+5. COMP 2021 - Unix and Script Programming (3 units): Unix utilities and file structure; links and symbolic links; data processing and process control in ...
+Found 2 note(s)
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Query: 2. COMP 2211 - Exploring Artificial Intelligence (3 units): This course provides a gentle introduction to artificial intelligence (AI), and emphasizes hands-on ...
+5. COMP 2021 - Unix and Script Programming (3 units): Unix utilities and file structure; links and symbolic links; data processing and process control in ...
+6. COMP 2521 - Mobile Application Development Projects (3 units): This course is intended to bring together students from different disciplines to focus on coming up ...
+Found 3 note(s)
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: New title: Note not found or new note title already exists
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Query: 1. COMP 2013 - Programming with Rust (4 units): Programming; data structures; variables; control statements; pattern matching; references; arrays; s...
+3. COMP 2611 - Computer Organization (4 units): Inner workings of modern digital computer systems and tradeoffs at the hardware-software interface. ...
+4. COMP 2711 - Discrete Mathematical Tools for Computer Science (4 units): Basic concepts in discrete mathematics needed for the study of computer science: enumeration techniq...
+Found 3 note(s)
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Title: Content: Note title already exists or too many notes
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Query: Found 0 note(s)
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Query: Found 0 note(s)
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Query: Found 0 note(s)
+==========================================
+0. Quit
+1. List notes
+2. Print a note
+3. Add a note
+4. Remove a note
+5. Rename a note
+6. Edit a note
+7. Append to a note
+8. Search notes
+Option: Quitting!
+==========================================
+File to write notes to (empty to skip, '-' for stdout): 6
+43
+COMP 2013 - Programming with Rust (4 units)
+232
+Programming; data structures; variables; control statements; pattern matching; references; arrays; slices; mutability; lifetimes; borrow checker; object oriented programming; data races; algebraic data types; higher-order functions.
+55
+COMP 2211 - Exploring Artificial Intelligence (3 units)
+723
+This course provides a gentle introduction to artificial intelligence (AI), and emphasizes hands-on practical experiences with Python and AI software tools to explore AI applications. Interesting applications that have been covered in previous class offerings include, but are not limited to, medical diagnosis, predictions of customer behaviour and user attitudes, character recognition, spam mail detection, text and image classifications and recognitions, sentiment analysis, and retinal vessel segmentation. The course also explores recent advances and discusses the history and ethics of AI. Only for students in their first and second year of study or those with approval from instructor by applying requisite waiver.
+43
+COMP 2611 - Computer Organization (4 units)
+319
+Inner workings of modern digital computer systems and tradeoffs at the hardware-software interface. Topics include: instructions set design, memory systems, input-output systems, interrupts and exceptions, pipelining, performance and cost analysis, assembly language programming, and a survey of advanced architectures.
+70
+COMP 2711 - Discrete Mathematical Tools for Computer Science (4 units)
+290
+Basic concepts in discrete mathematics needed for the study of computer science: enumeration techniques, basic number theory, logic and proofs, recursion and recurrences, probability theory and graph theory. The approach of this course is specifically computer science application oriented.
+49
+COMP 2021 - Unix and Script Programming (3 units)
+320
+Unix utilities and file structure; links and symbolic links; data processing and process control in the Unix shell; Shell programming; regular expressions; script programming in the Unix environment. Laboratory exercises are designed to give hands-on practice with software tools and to increase programmer productivity.
+61
+COMP 2521 - Mobile Application Development Projects (3 units)
+606
+This course is intended to bring together students from different disciplines to focus on coming up with innovative mobile solutions to address domain-specific problems. This will be a student-led project-based course. Teams of students will focus on developing applications to address the needs of specific application domains. Learning additional technical knowledge will be demand-driven in self-learning mode. Students will be supported by technical advisors, which include a faculty member who is the main instructor, as well as instructional assistant(s) and student helpers with technical knowledge.
+Notes written
+Cleaning up...
+See you!

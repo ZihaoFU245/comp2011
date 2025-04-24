@@ -1,0 +1,38 @@
+
+1
+3
+Category theory
+Category theory is a general theory of mathematical structures and their relations.
+1
+3
+Morphism
+A morphism is a concept of category theory that generalizes structure-preserving maps such as homomorphism between algebraic structures, functions from a set to another set, and continuous functions between topological spaces
+1
+8
+.
+8
+-
+3
+Functor
+A functor is a mapping between categories.
+1
+3
+Category
+A category (sometimes called an abstract category to distinguish it from a concrete category) is a collection of "objects" that are linked by "arrows".
+1
+8
+category
+8
+Category
+3
+Category of sets
+The category of sets, denoted by Set, is the category whose objects are sets. The arrows or morphisms between sets A and B are the functions from A to B, and the composition of morphisms is the composition of functions.
+1
+8
+
+8
+phism
+8
+Lopre ipsum
+0
+-

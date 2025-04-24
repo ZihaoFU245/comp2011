@@ -1,0 +1,61 @@
+
+1
+2
+Test
+3
+Test
+Not some content here
+1
+3
+C string functions
+This lab also serves as an exercise on manipulating C strings. So we will introduce a few functions that manipulate C strings.
+1
+4
+Not test
+1
+4
+Test
+1
+2
+C string functions
+3
+`std::strstr`
+If the C string needle is contained in the C string haystack (i.e. needle is a substring of haystack), then it returns a pointer that points to the first occurrence of needle in haystack.
+1
+3
+`std::strcmp`
+Compares two C strings lhs and rhs lexicographically.
+1
+3
+`std::strstr`
+then it returns a pointer that points to the first occurrence of needle in haystack.
+1
+3
+`std::strstr`
+If the C string needle is contained in the C string haystack (i.e. needle is a substring of haystack),
+1
+3
+`std::strcmp`
+Compares two C strings lhs and rhs lexicographically.
+1
+4
+C string functions
+1
+4
+C string functions
+1
+3
+C string functions
+So we will introduce a few functions that manipulate C strings.
+1
+2
+`std::strstr`
+2
+C string functions
+4
+`std::strcmp`
+1
+2
+`std::strcmp`
+0
+-
