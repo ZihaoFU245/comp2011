@@ -1071,6 +1071,20 @@ bool add_topping_to_order(const int number, const char topping[], ToppingType *t
     return true;
 }
 
+bool find_exact_topping(ToppingListNode *head , const char name[] , ToppingListNode *&to_delete , ToppingListNode *&prev)
+{
+    for (ToppingListNode *pos = head , *prev = nullptr ; pos ; pos = pos->next)
+    {
+        if (strcmp(pos->topping->name , name) == 0)
+        {
+            to_delete = pos;
+            return true;
+        }
+        prev = pos;
+    }
+    return false;
+}
+
 /**
  * function remove_topping_from_order removes a topping from a pending order's drink
  * and subtracts the topping's calories from the order's calorie count
@@ -1088,7 +1102,37 @@ bool add_topping_to_order(const int number, const char topping[], ToppingType *t
 bool remove_topping_from_order(const int number, const char topping[], Order *pending)
 {
     // TODO
-    return false; // you many remove this line if you want
+    Order *to_this_order = nullptr;
+    ToppingListNode *to_delete = nullptr;
+    ToppingListNode *prev = nullptr;
+    
+    if (!(check_order_exist(pending , number , to_this_order)))
+        return false;
+    if (!(to_this_order->drink->toppings))
+        return false;
+    if (!(find_exact_topping(to_this_order->drink->toppings , topping , to_delete , prev)))
+        return false;
+
+    // calorie tracking
+    to_this_order->calories -= to_delete->topping->calories;
+    // make deletion
+    if (to_this_order->drink->toppings == to_delete)
+    {
+        // head case
+        to_this_order->drink->toppings = to_delete->next;
+        delete to_delete;
+        to_delete = nullptr;
+        return true;
+    }
+    else
+    {
+        // otherwise
+        prev->next = to_delete->next;
+        delete to_delete;
+        to_delete = nullptr;
+        return true;
+    }
+    return true;    
 }
 
 /**
@@ -1106,7 +1150,70 @@ bool remove_topping_from_order(const int number, const char topping[], Order *pe
 bool build_replacement_list(MilkType *milkTypes, ReplacementListNode *&replacement)
 {
     // TODO
-    return false; // you many remove this line if you want
+    if (milkTypes == nullptr)
+    {
+        replacement = nullptr;
+        return false;
+    }
+    if (milkTypes->next == nullptr)
+    {
+        replacement = new ReplacementListNode;
+        replacement->milk = milkTypes;
+        replacement->next = replacement;
+        return true;
+    }
+    // more than 1 item
+    // find length
+    int length = 0;
+    for (MilkType *pos = milkTypes ; pos ; pos = pos->next) length++;
+    // create an array for sorting
+    MilkType **arr = new MilkType *[length];
+    int index = 0;
+    for (MilkType *pos = milkTypes; pos; pos = pos->next, index++)
+    {
+        arr[index] = pos;
+    }
+    
+    // sorting
+    for (int i = 0 ; i < length - 1 ; i++)
+    {
+        for (int j = 0 ; j < length - 1 - i ; j++)
+        {
+            if (arr[j]->calories > arr[j + 1]->calories)
+            {
+                MilkType *temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+
+    // construct the replacement list
+    ReplacementListNode *head = new ReplacementListNode{arr[0] , nullptr};
+    ReplacementListNode *pos = head;
+    for (int i = 1 ; i < length ; i++)
+    {
+        // create new node
+        ReplacementListNode *node = new ReplacementListNode{arr[i] , nullptr};
+        pos->next = node;
+        pos = node;
+    }
+    pos->next = head;
+    replacement = head;
+
+    delete[] arr;
+    return true;
+}
+
+ReplacementListNode *search_target_milk(const MilkType *target , const ReplacementListNode *list)
+{
+    ReplacementListNode *pos = list->next;
+    for (pos ; pos != list ; pos = pos->next)
+    {
+        if (pos->milk == target)
+            return pos;
+    }
+    return nullptr;
 }
 
 /**
@@ -1125,7 +1232,20 @@ bool build_replacement_list(MilkType *milkTypes, ReplacementListNode *&replaceme
 MilkType *find_available_in_replacement_circle(MilkType *targetMilk, ReplacementListNode *replacement)
 {
     // TODO
-    return nullptr; // you many remove this line if you want
+    if (replacement == nullptr)
+        return nullptr;
+    ReplacementListNode *beginning = nullptr;
+    if ((beginning = search_target_milk(targetMilk , replacement)) == nullptr)
+        return nullptr;
+    // loop to find the replacement
+    ReplacementListNode *pos = beginning->next;
+    while (pos != beginning)
+    {
+        if (pos->milk->stock > 0)
+            return pos->milk;
+        pos = pos->next;
+    }
+    return nullptr;
 }
 
 /**
