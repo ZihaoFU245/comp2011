@@ -665,6 +665,19 @@ bool check_name_exist(MilkType *head , const char name[] , MilkType *&extracted)
     return false;
 }
 
+bool check_name_exist(ToppingType *head , const char name[] , ToppingType *&extracted)
+{
+    for (ToppingType *current = head ; current ; current = current->next)
+    {
+        if (strcmp(current->name , name) == 0)
+        {
+            extracted = current;
+            return true;
+        }
+    }
+    return false;
+}
+
 bool check_name_exist(Drink **&recipes , const int length , const char name[] , Drink *&extracted)
 {
     for (int i = 0 ; i < length ; i++)
@@ -892,12 +905,12 @@ bool create_order(Order *&pending, const int number, const char drink[], Drink *
     elif is not nullptr , middle insertion or 
         if , insertion_place->next = nullptr , end insertion
     */
-    for (Order *current = pending ; current ; current = current->next)
+    for (Order *pos = pending ; pos->next ; pos = pos->next)
     {
-        if (current->number == number)
+        if (pos->number == number)
             return false;
-        if (number > current->number)
-            insertion_place = current;
+        if (number > pos->number)
+            insertion_place = pos;
     }
     Drink *source = nullptr;
     if (!(check_name_exist(recipes , numRecipes , drink , source)))
@@ -905,7 +918,7 @@ bool create_order(Order *&pending, const int number, const char drink[], Drink *
     
     // copy Drink , deep copy Topping list
     Drink *NDrink = new Drink;
-    NDrink->id = source->id;
+    NDrink->id = -1; // differentiating it from the original recipe
     NDrink->milk = source->milk;
     NDrink->tea = source->tea;
     strcpy(NDrink->name , source->name);
@@ -919,12 +932,69 @@ bool create_order(Order *&pending, const int number, const char drink[], Drink *
     // create new order 
     Order *NOrder = new Order;
     NOrder->number = number;
-    NOrder->caffeine;
+    NOrder->caffeine = caffiene;
+    NOrder->calories = calories;
+    NOrder->drink = NDrink;
+    NOrder->sugarLevel = sugarLevel;
+    NOrder->next = nullptr;
+
+    // insertion to order linked list
+    if (insertion_place == nullptr)
+    {
+        // front insertion
+        NOrder->next = pending;
+        pending = NOrder;
+    }
+    else if (insertion_place && insertion_place->next == nullptr)
+    {
+        // end insertion
+        insertion_place->next = NOrder;
+    }
+    else
+    {
+        // middle insertion
+        Order *temp = insertion_place->next;
+        insertion_place->next = NOrder;
+        NOrder->next = temp;
+    }
     
 
     return true;
 }
 
+bool check_order_exist(Order *head , const int num , Order *&extracted)
+{
+    for (Order *pos = head ; pos ; pos = pos->next)
+    {
+        if (pos->number == num)
+        {   
+            extracted = pos;
+            return true;
+        }
+    }
+    return false;
+}
+
+bool check_topping_exist(Order *head , const char name[] , ToppingListNode *&extracted)
+{
+    // extract the insertion place by alphabetical order
+    ToppingListNode *insert_pos = nullptr;
+    ToppingListNode *current = head->drink->toppings;
+    ToppingListNode *prev = nullptr;
+
+    while (current)
+    {
+        int diff = strcmp(current->topping->name , name);
+        if (diff == 0)
+            return false;
+        if (diff > 0)
+            break;
+        prev = current;
+        current = current->next;
+    }
+    insert_pos = prev;
+    return true;
+}
 /**
  * function add_topping_to_order adds a topping to a pending order's drink
  * and adds the topping's calories to the order's calorie count.
@@ -945,7 +1015,60 @@ bool create_order(Order *&pending, const int number, const char drink[], Drink *
 bool add_topping_to_order(const int number, const char topping[], ToppingType *toppingTypes, Order *pending)
 {
     // TODO
-    return false; // you many remove this line if you want
+    Order *to_this_order = nullptr;
+    ToppingListNode *insert_pos = nullptr;
+    ToppingType *insert_which = nullptr;
+
+    bool validation = true;
+    if (!pending)
+        validation = false;
+    if (!(check_order_exist(pending , number , to_this_order)))
+        validation = false; 
+    if (!(check_topping_exist(pending , topping , insert_pos)))
+        validation = false;
+    if (!(check_name_exist(toppingTypes , topping , insert_which)))
+        validation = false;
+    
+    if (validation == false)
+    {
+        delete toppingTypes;
+        toppingTypes = nullptr;
+        return false;
+    }
+
+    to_this_order->calories += insert_which->calories;
+    
+    // prepare new node
+    ToppingListNode *node = new ToppingListNode;
+    node->next = nullptr;
+    node->topping = insert_which;
+    // insertion
+    if (!(to_this_order->drink->toppings))
+    {
+        // add topping to a drink that has no toppings
+        to_this_order->drink->toppings = node;
+        return true;
+    }
+    else if (to_this_order->drink->toppings && insert_pos == nullptr)
+    {
+        // add topping that at front
+        ToppingListNode *temp = to_this_order->drink->toppings;
+        to_this_order->drink->toppings = node;
+        node->next = temp;
+    }
+    else if (insert_pos != nullptr && insert_pos->next != nullptr)
+    {
+        // insert at middle
+        ToppingListNode *temp = insert_pos->next;
+        insert_pos->next = node;
+        node->next = temp;
+    }
+    else
+    {
+        //insert at back
+        insert_pos->next = node;
+    }
+    return true;
 }
 
 /**
