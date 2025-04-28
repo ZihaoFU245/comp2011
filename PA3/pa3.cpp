@@ -639,11 +639,11 @@ void print_replacement_cycle(ReplacementListNode *replacement)
 
 // helpers for create_receipe
 // milk type and tea type both have name attributes , so overload the function check name
-bool check_name_exist(TeaType *head , const char name[] , TeaType *&extracted)
+bool check_name_exist(TeaType *head, const char name[], TeaType *&extracted)
 {
-    for (TeaType* current = head ; current ; current = current->next)
+    for (TeaType *current = head; current; current = current->next)
     {
-        if (strcmp(current->name , name) == 0)
+        if (strcmp(current->name, name) == 0)
         {
             extracted = current;
             return true;
@@ -652,11 +652,11 @@ bool check_name_exist(TeaType *head , const char name[] , TeaType *&extracted)
     return false;
 }
 
-bool check_name_exist(MilkType *head , const char name[] , MilkType *&extracted)
+bool check_name_exist(MilkType *head, const char name[], MilkType *&extracted)
 {
-    for (MilkType* current = head ; current ; current = current->next)
+    for (MilkType *current = head; current; current = current->next)
     {
-        if (strcmp(current->name , name) == 0)
+        if (strcmp(current->name, name) == 0)
         {
             extracted = current;
             return true;
@@ -665,11 +665,11 @@ bool check_name_exist(MilkType *head , const char name[] , MilkType *&extracted)
     return false;
 }
 
-bool check_name_exist(ToppingType *head , const char name[] , ToppingType *&extracted)
+bool check_name_exist(ToppingType *head, const char name[], ToppingType *&extracted)
 {
-    for (ToppingType *current = head ; current ; current = current->next)
+    for (ToppingType *current = head; current; current = current->next)
     {
-        if (strcmp(current->name , name) == 0)
+        if (strcmp(current->name, name) == 0)
         {
             extracted = current;
             return true;
@@ -678,11 +678,11 @@ bool check_name_exist(ToppingType *head , const char name[] , ToppingType *&extr
     return false;
 }
 
-bool check_name_exist(Drink **&recipes , const int length , const char name[] , Drink *&extracted)
+bool check_name_exist(Drink **&recipes, const int length, const char name[], Drink *&extracted)
 {
-    for (int i = 0 ; i < length ; i++)
+    for (int i = 0; i < length; i++)
     {
-        if (strcmp(recipes[i]->name , name) == 0)
+        if (strcmp(recipes[i]->name, name) == 0)
         {
             extracted = recipes[i];
             return true;
@@ -698,7 +698,7 @@ bool check_name_exist(Drink **&recipes , const int length , const char name[] , 
 bool check_duplications(Drink **&arrRecipes, const int length, const char name[], const int id, int &insertion_index)
 {
     insertion_index = -1;
-    for (int i = 0 ; i < length ; i++)
+    for (int i = 0; i < length; i++)
     {
         if ((strcmp(arrRecipes[i]->name, name) == 0) || arrRecipes[i]->id == id)
         {
@@ -739,7 +739,7 @@ bool create_recipe(const char name[], const int id, const int price, const char 
     // 1. check if tea and milk exist
     TeaType *to_this_tea = nullptr;
     MilkType *to_this_milk = nullptr;
-    if (!(check_name_exist(teaTypes, tea , to_this_tea) && check_name_exist(milkTypes , milk , to_this_milk)))
+    if (!(check_name_exist(teaTypes, tea, to_this_tea) && check_name_exist(milkTypes, milk, to_this_milk)))
     {
         return false;
     }
@@ -752,9 +752,9 @@ bool create_recipe(const char name[], const int id, const int price, const char 
         NDrink->toppings = nullptr; // No Topping
         NDrink->price = price;
         NDrink->id = id;
-        strcpy(NDrink->name , name);
+        strcpy(NDrink->name, name);
         NDrink->tea = to_this_tea;
-        NDrink->milk = to_this_milk;        
+        NDrink->milk = to_this_milk;
 
         recipes[0] = NDrink;
         numRecipes = 1;
@@ -763,7 +763,7 @@ bool create_recipe(const char name[], const int id, const int price, const char 
     // otherwise , check duplicate ID / drink names
     // do not forget to update length
     int insertion_index = -1;
-    if (!(check_duplications(recipes , numRecipes , name , id , insertion_index)))
+    if (!(check_duplications(recipes, numRecipes, name, id, insertion_index)))
     {
         return false;
     }
@@ -771,13 +771,13 @@ bool create_recipe(const char name[], const int id, const int price, const char 
     NDrink->toppings = nullptr;
     NDrink->price = price;
     NDrink->id = id;
-    strcpy(NDrink->name , name);
+    strcpy(NDrink->name, name);
     NDrink->tea = to_this_tea;
     NDrink->milk = to_this_milk;
 
     Drink **NArr = new Drink *[numRecipes + 1];
     int insert_pos = insertion_index + 1;
-    for (int i = 0 , j = 0 ; i < numRecipes + 1 ; i++)
+    for (int i = 0, j = 0; i < numRecipes + 1; i++)
     {
         if (i = insert_pos)
             NArr[i] = NDrink;
@@ -805,19 +805,19 @@ bool create_recipe(const char name[], const int id, const int price, const char 
 bool remove_recipe(const char drink[], Drink **&recipes, int &numRecipes)
 {
     // TODO
-    // IDEA: go over the array, if found, get new array (size - 1), and use the index to copy to new array. 
-    // delete old array and set the new header 
+    // IDEA: go over the array, if found, get new array (size - 1), and use the index to copy to new array.
+    // delete old array and set the new header
 
-    for (int i = 0 ; i < numRecipes ; i++)
+    for (int i = 0; i < numRecipes; i++)
     {
-        if (strcmp(recipes[i]->name , drink) == 0)
+        if (strcmp(recipes[i]->name, drink) == 0)
         {
             // succesfully locate the element
             Drink **NArr = nullptr;
             if (numRecipes > 1)
                 NArr = new Drink *[numRecipes - 1];
             // copy to new array , i is the pos in old array to be ignored
-            for (int j = 0 , k = 0 ; j < numRecipes - 1 ; j++ , k++)
+            for (int j = 0, k = 0; j < numRecipes - 1; j++, k++)
             {
                 if (k == i)
                     k++;
@@ -837,13 +837,12 @@ bool remove_recipe(const char drink[], Drink **&recipes, int &numRecipes)
         }
     }
 
-
     return false;
 }
 
 // helpers for create_order
 /*This function would not delete the source linked list*/
-ToppingListNode* ll_copy(ToppingListNode *source_head)
+ToppingListNode *ll_copy(ToppingListNode *source_head)
 {
     if (!source_head)
         return nullptr;
@@ -856,27 +855,27 @@ ToppingListNode* ll_copy(ToppingListNode *source_head)
 int caffeineSum(TeaType *head)
 {
     int sum = 0;
-    for (TeaType *current = head ; current ; current = current->next)
+    for (TeaType *current = head; current; current = current->next)
     {
         sum += current->caffeine;
     }
     return sum;
 }
 
-int calorieSum(MilkType *M_head , ToppingListNode *T_head)
+int calorieSum(MilkType *M_head, ToppingListNode *T_head)
 {
-    //stop condition
+    // stop condition
     if (M_head == nullptr && T_head == nullptr)
         return 0;
     else if (M_head == nullptr || T_head == nullptr)
     {
         if (M_head == nullptr)
-            return T_head->topping->calories + calorieSum(nullptr , T_head->next);
+            return T_head->topping->calories + calorieSum(nullptr, T_head->next);
         else
-            return M_head->calories + calorieSum(M_head->next , nullptr);
+            return M_head->calories + calorieSum(M_head->next, nullptr);
     }
     // recursion
-    return M_head->calories + T_head->topping->calories + calorieSum(M_head->next , T_head->next);
+    return M_head->calories + T_head->topping->calories + calorieSum(M_head->next, T_head->next);
 }
 // === Region: Order Functions ===
 /**
@@ -899,13 +898,13 @@ bool create_order(Order *&pending, const int number, const char drink[], Drink *
 {
     // TODO
     // Validation of number and identify the insertion position if no same number occured
-    Order *insertion_place = nullptr; 
+    Order *insertion_place = nullptr;
     /*
     if insertion_place is nullptr , then it's front insertion
-    elif is not nullptr , middle insertion or 
+    elif is not nullptr , middle insertion or
         if , insertion_place->next = nullptr , end insertion
     */
-    for (Order *pos = pending ; pos->next ; pos = pos->next)
+    for (Order *pos = pending; pos->next; pos = pos->next)
     {
         if (pos->number == number)
             return false;
@@ -913,23 +912,23 @@ bool create_order(Order *&pending, const int number, const char drink[], Drink *
             insertion_place = pos;
     }
     Drink *source = nullptr;
-    if (!(check_name_exist(recipes , numRecipes , drink , source)))
+    if (!(check_name_exist(recipes, numRecipes, drink, source)))
         return false;
-    
+
     // copy Drink , deep copy Topping list
     Drink *NDrink = new Drink;
     NDrink->id = -1; // differentiating it from the original recipe
     NDrink->milk = source->milk;
     NDrink->tea = source->tea;
-    strcpy(NDrink->name , source->name);
+    strcpy(NDrink->name, source->name);
     NDrink->price = source->price;
     NDrink->toppings = ll_copy(source->toppings);
-    
+
     // caffine and calories calculations
     int caffiene = caffeineSum(NDrink->tea);
-    int calories = calorieSum(NDrink->milk , NDrink->toppings);
-    
-    // create new order 
+    int calories = calorieSum(NDrink->milk, NDrink->toppings);
+
+    // create new order
     Order *NOrder = new Order;
     NOrder->number = number;
     NOrder->caffeine = caffiene;
@@ -957,17 +956,16 @@ bool create_order(Order *&pending, const int number, const char drink[], Drink *
         insertion_place->next = NOrder;
         NOrder->next = temp;
     }
-    
 
     return true;
 }
 
-bool check_order_exist(Order *head , const int num , Order *&extracted)
+bool check_order_exist(Order *head, const int num, Order *&extracted)
 {
-    for (Order *pos = head ; pos ; pos = pos->next)
+    for (Order *pos = head; pos; pos = pos->next)
     {
         if (pos->number == num)
-        {   
+        {
             extracted = pos;
             return true;
         }
@@ -975,7 +973,7 @@ bool check_order_exist(Order *head , const int num , Order *&extracted)
     return false;
 }
 
-bool check_topping_exist(Order *head , const char name[] , ToppingListNode *&extracted)
+bool check_topping_exist(Order *head, const char name[], ToppingListNode *&extracted)
 {
     // extract the insertion place by alphabetical order
     ToppingListNode *insert_pos = nullptr;
@@ -984,7 +982,7 @@ bool check_topping_exist(Order *head , const char name[] , ToppingListNode *&ext
 
     while (current)
     {
-        int diff = strcmp(current->topping->name , name);
+        int diff = strcmp(current->topping->name, name);
         if (diff == 0)
             return false;
         if (diff > 0)
@@ -1022,13 +1020,13 @@ bool add_topping_to_order(const int number, const char topping[], ToppingType *t
     bool validation = true;
     if (!pending)
         validation = false;
-    if (!(check_order_exist(pending , number , to_this_order)))
-        validation = false; 
-    if (!(check_topping_exist(pending , topping , insert_pos)))
+    if (!(check_order_exist(pending, number, to_this_order)))
         validation = false;
-    if (!(check_name_exist(toppingTypes , topping , insert_which)))
+    if (!(check_topping_exist(pending, topping, insert_pos)))
         validation = false;
-    
+    if (!(check_name_exist(toppingTypes, topping, insert_which)))
+        validation = false;
+
     if (validation == false)
     {
         delete toppingTypes;
@@ -1037,7 +1035,7 @@ bool add_topping_to_order(const int number, const char topping[], ToppingType *t
     }
 
     to_this_order->calories += insert_which->calories;
-    
+
     // prepare new node
     ToppingListNode *node = new ToppingListNode;
     node->next = nullptr;
@@ -1065,17 +1063,17 @@ bool add_topping_to_order(const int number, const char topping[], ToppingType *t
     }
     else
     {
-        //insert at back
+        // insert at back
         insert_pos->next = node;
     }
     return true;
 }
 
-bool find_exact_topping(ToppingListNode *head , const char name[] , ToppingListNode *&to_delete , ToppingListNode *&prev)
+bool find_exact_topping(ToppingListNode *head, const char name[], ToppingListNode *&to_delete, ToppingListNode *&prev)
 {
-    for (ToppingListNode *pos = head , *prev = nullptr ; pos ; pos = pos->next)
+    for (ToppingListNode *pos = head, *prev = nullptr; pos; pos = pos->next)
     {
-        if (strcmp(pos->topping->name , name) == 0)
+        if (strcmp(pos->topping->name, name) == 0)
         {
             to_delete = pos;
             return true;
@@ -1105,12 +1103,12 @@ bool remove_topping_from_order(const int number, const char topping[], Order *pe
     Order *to_this_order = nullptr;
     ToppingListNode *to_delete = nullptr;
     ToppingListNode *prev = nullptr;
-    
-    if (!(check_order_exist(pending , number , to_this_order)))
+
+    if (!(check_order_exist(pending, number, to_this_order)))
         return false;
     if (!(to_this_order->drink->toppings))
         return false;
-    if (!(find_exact_topping(to_this_order->drink->toppings , topping , to_delete , prev)))
+    if (!(find_exact_topping(to_this_order->drink->toppings, topping, to_delete, prev)))
         return false;
 
     // calorie tracking
@@ -1132,7 +1130,7 @@ bool remove_topping_from_order(const int number, const char topping[], Order *pe
         to_delete = nullptr;
         return true;
     }
-    return true;    
+    return true;
 }
 
 /**
@@ -1165,7 +1163,8 @@ bool build_replacement_list(MilkType *milkTypes, ReplacementListNode *&replaceme
     // more than 1 item
     // find length
     int length = 0;
-    for (MilkType *pos = milkTypes ; pos ; pos = pos->next) length++;
+    for (MilkType *pos = milkTypes; pos; pos = pos->next)
+        length++;
     // create an array for sorting
     MilkType **arr = new MilkType *[length];
     int index = 0;
@@ -1173,11 +1172,11 @@ bool build_replacement_list(MilkType *milkTypes, ReplacementListNode *&replaceme
     {
         arr[index] = pos;
     }
-    
+
     // sorting
-    for (int i = 0 ; i < length - 1 ; i++)
+    for (int i = 0; i < length - 1; i++)
     {
-        for (int j = 0 ; j < length - 1 - i ; j++)
+        for (int j = 0; j < length - 1 - i; j++)
         {
             if (arr[j]->calories > arr[j + 1]->calories)
             {
@@ -1189,12 +1188,12 @@ bool build_replacement_list(MilkType *milkTypes, ReplacementListNode *&replaceme
     }
 
     // construct the replacement list
-    ReplacementListNode *head = new ReplacementListNode{arr[0] , nullptr};
+    ReplacementListNode *head = new ReplacementListNode{arr[0], nullptr};
     ReplacementListNode *pos = head;
-    for (int i = 1 ; i < length ; i++)
+    for (int i = 1; i < length; i++)
     {
         // create new node
-        ReplacementListNode *node = new ReplacementListNode{arr[i] , nullptr};
+        ReplacementListNode *node = new ReplacementListNode{arr[i], nullptr};
         pos->next = node;
         pos = node;
     }
@@ -1205,10 +1204,10 @@ bool build_replacement_list(MilkType *milkTypes, ReplacementListNode *&replaceme
     return true;
 }
 
-ReplacementListNode *search_target_milk(const MilkType *target , const ReplacementListNode *list)
+ReplacementListNode *search_target_milk(const MilkType *target, const ReplacementListNode *list)
 {
     ReplacementListNode *pos = list->next;
-    for (pos ; pos != list ; pos = pos->next)
+    for (pos; pos != list; pos = pos->next)
     {
         if (pos->milk == target)
             return pos;
@@ -1235,7 +1234,7 @@ MilkType *find_available_in_replacement_circle(MilkType *targetMilk, Replacement
     if (replacement == nullptr)
         return nullptr;
     ReplacementListNode *beginning = nullptr;
-    if ((beginning = search_target_milk(targetMilk , replacement)) == nullptr)
+    if ((beginning = search_target_milk(targetMilk, replacement)) == nullptr)
         return nullptr;
     // loop to find the replacement
     ReplacementListNode *pos = beginning->next;
@@ -1246,6 +1245,52 @@ MilkType *find_available_in_replacement_circle(MilkType *targetMilk, Replacement
         pos = pos->next;
     }
     return nullptr;
+}
+
+/*Go through the topping list once , remove if stock <= 0, record calorie change.*/
+bool check_toppings(ToppingListNode *head, int &calorie_change)
+{
+    calorie_change = 0;
+    bool isComplete = true;
+    // Drink -> ToppingListNode -> toppings -> stock
+    for (ToppingListNode *pos = head, *prev = nullptr; pos; pos = pos->next)
+    {
+        if (pos->topping->stock <= 0)
+        {
+            calorie_change -= pos->topping->calories;
+            // remove the current node
+            prev->next = pos->next;
+            delete pos;
+
+            isComplete = false;
+        }
+        prev = pos;
+    }
+    return isComplete;
+}
+
+void move_order(Order *&pending , Order *this_order , Order *ready[])
+{
+    Order *prev = nullptr , *pos = pending;
+    while (pos && pos != this_order)
+    {
+        prev = pos;
+        pos = pos->next;
+    }
+    if (prev == nullptr)
+    {
+        // head case
+        pending = pos->next;
+    }
+    else
+    {
+        prev->next = pos->next;
+    }
+    pos->next = nullptr;
+
+    int bucket = (pos->number) % 10;
+    pos->next = ready[bucket];
+    ready[bucket] = pos;    
 }
 
 /**
@@ -1271,7 +1316,74 @@ MilkType *find_available_in_replacement_circle(MilkType *targetMilk, Replacement
 int get_order_ready(const int number, Order *&pending, Order *ready[], ReplacementListNode *replacement)
 {
     // TODO
-    return 0; // you many remove this line if you want
+    Order *this_order = nullptr;
+    if (!pending)
+        return 0;
+    if (!check_order_exist(pending, number, this_order))
+        return 0;
+    // check if milk is avaliable
+    int milk_stock = this_order->drink->milk->stock;
+    /*
+    Two cases:
+        - milk_stock > 0, this milk is available.
+          Further check toppings, and monitor calories
+            * All toppings available , process and return 1
+            * Not all availbale, remove, process and return 2
+        - milk_stock <= 0, milk stock is unavailable,
+          Further check replacement and monitor calories
+            * No milk replacement, return 0
+            * Has replacement:
+                - Toppings available, process and return 2
+                - Toppings unavailable , preocess and return 2.
+    Helper function I need:
+        * bool check_toppings (head , int &calorie_change)
+            - go through topping linked list , remove if stock <= 0, record in calorie change
+            -  return true if all toppings is ok , false otherwise
+    */
+    if (milk_stock > 0)
+    {
+        // Process order when milk is available
+        int calorie_change = 0;
+        bool isComplete = check_toppings(this_order->drink->toppings, calorie_change);
+        // change calorie
+        this_order->calories += calorie_change;
+        if (isComplete)
+        {
+            // All toppings available
+            // TODO: remove from pending list and add to ready, maybe a helper function here
+            move_order(pending , this_order , ready);
+            return 1;
+        }
+        else
+        {
+            // Not all available
+            // call remove from pending list and add to ready
+            move_order(pending , this_order , ready);
+            return 2;
+        }
+    }
+    else
+    {
+        // Process order when milk is unavailable or replacement is needed
+        MilkType *target = this_order->drink->milk;
+        MilkType *milkReplacement = find_available_in_replacement_circle(target, replacement);
+        if (milkReplacement == nullptr)
+            return 0;
+        else
+            this_order->drink->milk = milkReplacement;
+        // Adjust calories
+        this_order->calories -= target->calories;
+        this_order->calories += milkReplacement->calories;
+        // check toppings
+        int calorie_change = 0;
+        check_toppings(this_order->drink->toppings, calorie_change);
+        this_order->calories += calorie_change;
+
+        // func call
+        move_order(pending , this_order , ready);
+        return 2;
+    }
+    return 0;
 }
 
 // === Region: Destructors ===
@@ -1285,7 +1397,33 @@ int get_order_ready(const int number, Order *&pending, Order *ready[], Replaceme
 void delete_database(TeaType *&teaTypes, MilkType *&milkTypes, ToppingType *&toppingTypes)
 {
     // TODO
-    return; // you many remove this line if you want
+    TeaType *Tpos = teaTypes;
+    while (Tpos)
+    {
+        TeaType *next = Tpos->next;
+        delete Tpos;
+        Tpos = next;
+    }
+    // set it to nullptr
+    teaTypes = nullptr;
+
+    MilkType *Mpos = milkTypes;
+    while (Mpos)
+    {
+        MilkType *next = Mpos->next;
+        delete Mpos;
+        Mpos = next;
+    }
+    milkTypes = nullptr;
+
+    ToppingType *Topos = toppingTypes;
+    while (Topos)
+    {
+        ToppingType *next = Topos->next;
+        delete Topos;
+        Topos = next;
+    }
+    toppingTypes = nullptr;
 }
 
 /**
@@ -1297,7 +1435,22 @@ void delete_database(TeaType *&teaTypes, MilkType *&milkTypes, ToppingType *&top
 void delete_recipe(Drink **&recipes, int numRecipes)
 {
     // TODO
-    return; // you many remove this line if you want
+    for (int i = 0 ; i < numRecipes ; i++)
+    {
+        ToppingListNode *pos = recipes[i]->toppings;
+        while (pos)
+        {
+            ToppingListNode *next = pos->next;
+            delete pos;
+            pos = next;
+        }
+        pos = nullptr;
+        
+        delete recipes[i];
+    }
+
+    delete[] recipes;
+    recipes = nullptr;
 }
 
 /**
