@@ -1241,7 +1241,7 @@ MilkType *find_available_in_replacement_circle(MilkType *targetMilk, Replacement
 }
 
 /*Go through the topping list once , remove if stock <= 0, record calorie change.*/
-bool check_toppings(ToppingListNode *head, int &calorie_change)
+bool check_toppings(ToppingListNode *&head, int &calorie_change)
 {
     calorie_change = 0;
     bool isComplete = true;
@@ -1274,6 +1274,9 @@ void move_order(Order *&pending, Order *this_order, Order *ready[])
         prev = pos;
         pos = pos->next;
     }
+
+    if (!pos) return;
+
     if (prev == nullptr)
     {
         // head case
@@ -1286,8 +1289,21 @@ void move_order(Order *&pending, Order *this_order, Order *ready[])
     pos->next = nullptr;
 
     int bucket = (pos->number) % 10;
-    pos->next = ready[bucket];
-    ready[bucket] = pos;
+
+    if (ready[bucket] == nullptr)
+    {
+        // head insert
+        ready[bucket] = pos;
+    }
+    else
+    {
+        Order *tail = ready[bucket];
+        while (tail->next != nullptr)
+        {
+            tail = tail->next;
+        }
+        tail->next = pos;
+    }
 }
 
 void minus_topping_stock(ToppingListNode *head)
