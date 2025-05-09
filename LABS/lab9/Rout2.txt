@@ -1,0 +1,9 @@
+Enter the path of input file: ========================================
+Exam Time Table of RM2464
+========================================
+    Course ID   Course Name                           Exam Time    #Students
+0   COMP1021    Introduction_to_Computer_Science       10 -- 160     250
+1   COMP3021    Java_Programming                      200 -- 300      79
+========================================
+Number of (Valid) Applications: 3
+Number of Exams: 2

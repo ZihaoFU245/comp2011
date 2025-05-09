@@ -1,0 +1,5 @@
+RM2464 300 4
+COMP1021 Introduction_to_Computer_Science 10 160 250
+COMP2011 Programming_with_C++ 155 255 200
+COMP2611 Computer_Organization 0 150 103
+COMP3021 Java_Programming 200 300 79

@@ -1,0 +1,11 @@
+RM2464 300 10
+COMP1021 Introduction_to_Computer_Science 50 150 500
+COMP2011 Programming_with_C++ 150 300 200
+COMP2611 Computer_Organization 80 240 103
+COMP3021 Java_Programming 300 400 79
+COMP3111 Software_Engineering 0 120 87
+COMP3511 Operating_Systems 350 450 130
+COMP3721 Theory_of_Computation 20 140 67
+COMP4021 Internet_Computing 200 300 75
+COMP4211 Machine_Learning 200 350 80
+COMP4331 Data_Mining 180 360 56

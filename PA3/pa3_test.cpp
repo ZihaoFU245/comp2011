@@ -359,6 +359,7 @@ void test12()
     initialize_database(teaTypes, milkTypes, toppingTypes, database_path);
     initialize_recipe(teaTypes, milkTypes, toppingTypes, recipes, numRecipes, recipe_path);
 
+    print_recipe(recipes, numRecipes);
     print_result(create_order(pending, 2, "GreenTeaLatte", recipes, numRecipes, Standard));
     print_pending_orders(pending);
     print_result(add_topping_to_order(2, "RedBean", toppingTypes, pending));
@@ -388,6 +389,7 @@ void test13()
     initialize_database(teaTypes, milkTypes, toppingTypes, database_path);
     initialize_recipe(teaTypes, milkTypes, toppingTypes, recipes, numRecipes, recipe_path);
 
+    print_recipe(recipes, numRecipes);
     print_result(create_order(pending, 2, "GreenTeaLatte", recipes, numRecipes, Standard));
     print_pending_orders(pending);
     print_result(add_topping_to_order(2, "RedBean", toppingTypes, pending));
@@ -419,8 +421,11 @@ void test14()
     initialize_database(teaTypes, milkTypes, toppingTypes, database_path);
     initialize_recipe(teaTypes, milkTypes, toppingTypes, recipes, numRecipes, recipe_path);
 
+    print_recipe(recipes, numRecipes);
     print_result(create_order(pending, 2, "GreenTeaLatte", recipes, numRecipes, Standard));
+    print_pending_orders(pending);
     print_result(add_topping_to_order(2, "RedBean", toppingTypes, pending));
+    print_pending_orders(pending);
     print_result(add_topping_to_order(2, "GG", toppingTypes, pending));
     print_pending_orders(pending);
 
@@ -448,9 +453,13 @@ void test15()
     initialize_database(teaTypes, milkTypes, toppingTypes, database_path);
     initialize_recipe(teaTypes, milkTypes, toppingTypes, recipes, numRecipes, recipe_path);
 
+    print_recipe(recipes, numRecipes);
     print_result(create_order(pending, 2, "GreenTeaLatte", recipes, numRecipes, Standard));
+    print_pending_orders(pending);
     print_result(add_topping_to_order(2, "RedBean", toppingTypes, pending));
+    print_pending_orders(pending);
     print_result(add_topping_to_order(2, "CheeseFoam", toppingTypes, pending));
+    print_pending_orders(pending);
     print_result(add_topping_to_order(2, "MangoPoppingBoba", toppingTypes, pending));
     print_pending_orders(pending);
     print_result(remove_topping_from_order(2, "RedBean", pending));
@@ -480,9 +489,13 @@ void test16()
     initialize_database(teaTypes, milkTypes, toppingTypes, database_path);
     initialize_recipe(teaTypes, milkTypes, toppingTypes, recipes, numRecipes, recipe_path);
 
+    print_recipe(recipes, numRecipes);
     print_result(create_order(pending, 2, "GreenTeaLatte", recipes, numRecipes, Standard));
+    print_pending_orders(pending);
     print_result(add_topping_to_order(2, "RedBean", toppingTypes, pending));
+    print_pending_orders(pending);
     print_result(add_topping_to_order(2, "CheeseFoam", toppingTypes, pending));
+    print_pending_orders(pending);
     print_result(add_topping_to_order(2, "MangoPoppingBoba", toppingTypes, pending));
     print_pending_orders(pending);
     print_result(remove_topping_from_order(2, "MangoPoppingBoba", pending));
@@ -512,13 +525,10 @@ void test17()
     initialize_database(teaTypes, milkTypes, toppingTypes, database_path);
     initialize_recipe(teaTypes, milkTypes, toppingTypes, recipes, numRecipes, recipe_path);
 
-    print_result(create_order(pending, 2, "GreenTeaLatte", recipes, numRecipes, Standard));
-    print_result(add_topping_to_order(2, "CheeseFoam", toppingTypes, pending));
-    print_result(add_topping_to_order(2, "MangoPoppingBoba", toppingTypes, pending));
-    print_pending_orders(pending);
-    print_result(remove_topping_from_order(2, "GG", pending));
-    print_result(remove_topping_from_order(2, "RedBean", pending));
-    print_pending_orders(pending);
+    print_recipe(recipes, numRecipes);
+    print_result(remove_recipe("CheesyGrape", recipes, numRecipes));
+    print_result(remove_recipe("CheesyGrape", recipes, numRecipes));
+    print_recipe(recipes, numRecipes);
 
     delete_database(teaTypes, milkTypes, toppingTypes);
     delete_recipe(recipes, numRecipes);
@@ -526,7 +536,6 @@ void test17()
     delete_ready_orders(ready);
     delete_replacement_circle(milkReplacements);
 }
-
 
 void test18()
 {
@@ -954,9 +963,283 @@ void test28()
     delete_replacement_circle(milkReplacements);
 }
 
+// Test case focusing on remove_recipe edge cases
+void test29()
+{
+    cout << "--- test29: remove_recipe edge cases ---" << endl;
+    const char *database_path = "data//2-database.txt"; // Use a simple database
+    const char *recipe_path = "data//2-recipe.txt";     // Use a simple recipe set
 
-void test_all(int testNum){
-    cout << "--- test " << testNum << " ---" << endl;
+    TeaType *teaTypes = nullptr;
+    MilkType *milkTypes = nullptr;
+    ToppingType *toppingTypes = nullptr;
+    ReplacementListNode *milkReplacements = nullptr;
+    Drink **recipes = nullptr;
+    int numRecipes = 0;
+    Order *pending = nullptr;
+    Order *ready[10] = {};
+    initialize_database(teaTypes, milkTypes, toppingTypes, database_path);
+    initialize_recipe(teaTypes, milkTypes, toppingTypes, recipes, numRecipes, recipe_path);
+
+    cout << "Initial recipes:" << endl;
+    print_recipe(recipes, numRecipes);
+
+    // Add a recipe with toppings to test memory leak fix
+    print_result(create_recipe("TestDrinkWithToppings", 5, 40, "GreenTea", "WholeMilk", teaTypes, milkTypes, recipes, numRecipes));
+    // Manually add toppings to the new recipe (since create_recipe doesn't add them)
+    // Find the recipe first
+    Drink* testDrink = nullptr;
+    for(int i=0; i<numRecipes; ++i) {
+        if(strcmp(recipes[i]->name, "TestDrinkWithToppings") == 0) {
+            testDrink = recipes[i];
+            break;
+        }
+    }
+    if(testDrink) {
+        ToppingType* topping1 = nullptr;
+        ToppingType* topping2 = nullptr;
+        check_name_exist(toppingTypes, "RedBean", topping1);
+        check_name_exist(toppingTypes, "CheeseFoam", topping2);
+        if(topping1) {
+             testDrink->toppings = new ToppingListNode{topping1, nullptr};
+             if(topping2) {
+                 testDrink->toppings->next = new ToppingListNode{topping2, nullptr};
+             }
+        }
+    }
+    cout << "After adding TestDrinkWithToppings:" << endl;
+    print_recipe(recipes, numRecipes);
+
+
+    print_result(remove_recipe("NonExistentRecipe", recipes, numRecipes)); // Test remove non-existent
+    print_result(remove_recipe("GreenTeaLatte", recipes, numRecipes));     // Test remove first
+    cout << "After removing GreenTeaLatte:" << endl;
+    print_recipe(recipes, numRecipes);
+
+    print_result(remove_recipe("TestDrinkWithToppings", recipes, numRecipes)); // Test remove recipe with toppings (check for leaks offline)
+    cout << "After removing TestDrinkWithToppings:" << endl;
+    print_recipe(recipes, numRecipes);
+
+    print_result(remove_recipe("CoconutMilkTea", recipes, numRecipes));    // Test remove last (after previous removals)
+     cout << "After removing CoconutMilkTea:" << endl;
+    print_recipe(recipes, numRecipes);
+
+    // Remove remaining recipe
+    print_result(remove_recipe("BlackTeaLatte", recipes, numRecipes));
+    cout << "After removing BlackTeaLatte (should be empty):" << endl;
+    print_recipe(recipes, numRecipes);
+    print_result(remove_recipe("BlackTeaLatte", recipes, numRecipes)); // Test remove from empty
+
+    delete_database(teaTypes, milkTypes, toppingTypes);
+    delete_recipe(recipes, numRecipes); // Should be safe even if recipes is nullptr
+    delete_pending_orders(pending);
+    delete_ready_orders(ready);
+    delete_replacement_circle(milkReplacements);
+}
+
+// Test case focusing on add/remove topping edge cases
+void test30()
+{
+    cout << "--- test30: add/remove topping edge cases ---" << endl;
+    const char *database_path = "data//2-database.txt";
+    const char *recipe_path = "data//2-recipe.txt";
+
+    TeaType *teaTypes = nullptr;
+    MilkType *milkTypes = nullptr;
+    ToppingType *toppingTypes = nullptr;
+    ReplacementListNode *milkReplacements = nullptr;
+    Drink **recipes = nullptr;
+    int numRecipes = 0;
+    Order *pending = nullptr;
+    Order *ready[10] = {};
+    initialize_database(teaTypes, milkTypes, toppingTypes, database_path);
+    initialize_recipe(teaTypes, milkTypes, toppingTypes, recipes, numRecipes, recipe_path);
+
+    print_result(create_order(pending, 10, "GreenTeaLatte", recipes, numRecipes, Standard)); // Order with no initial toppings
+    print_pending_orders(pending);
+
+    // Add toppings, testing alphabetical order and duplicates
+    print_result(add_topping_to_order(10, "RedBean", toppingTypes, pending));          // Add first
+    print_result(add_topping_to_order(10, "CheeseFoam", toppingTypes, pending));       // Add alphabetically before RedBean
+    print_result(add_topping_to_order(10, "MangoPoppingBoba", toppingTypes, pending)); // Add alphabetically after CheeseFoam, before RedBean
+    print_pending_orders(pending);
+
+    print_result(add_topping_to_order(10, "RedBean", toppingTypes, pending));          // Try adding duplicate
+    print_result(add_topping_to_order(10, "NonExistentTopping", toppingTypes, pending));// Try adding non-existent topping type
+    print_result(add_topping_to_order(99, "RedBean", toppingTypes, pending));          // Try adding to non-existent order
+    print_pending_orders(pending); // Should be unchanged from previous print
+
+    // Remove toppings, testing different positions and non-existent
+    print_result(remove_topping_from_order(10, "CheeseFoam", pending));       // Remove first alphabetically
+    print_pending_orders(pending);
+    print_result(remove_topping_from_order(10, "RedBean", pending));          // Remove last alphabetically
+    print_pending_orders(pending);
+    print_result(remove_topping_from_order(10, "NonExistentTopping", pending));// Try removing non-existent topping from order
+    print_result(remove_topping_from_order(10, "MangoPoppingBoba", pending)); // Remove the only remaining topping
+    print_pending_orders(pending);
+    print_result(remove_topping_from_order(10, "MangoPoppingBoba", pending)); // Try removing from order with no toppings
+    print_result(remove_topping_from_order(99, "RedBean", pending));          // Try removing from non-existent order
+
+    delete_database(teaTypes, milkTypes, toppingTypes);
+    delete_recipe(recipes, numRecipes);
+    delete_pending_orders(pending);
+    delete_ready_orders(ready);
+    delete_replacement_circle(milkReplacements);
+}
+
+// Test case focusing on get_order_ready edge cases
+void test31()
+{
+    cout << "--- test31: get_order_ready edge cases ---" << endl;
+    // Use database 5 which has stock variations
+    const char *database_path = "data//5-database.txt";
+    const char *recipe_path = "data//5-recipe.txt";
+
+    TeaType *teaTypes = nullptr;
+    MilkType *milkTypes = nullptr;
+    ToppingType *toppingTypes = nullptr;
+    ReplacementListNode *milkReplacements = nullptr;
+    Drink **recipes = nullptr;
+    int numRecipes = 0;
+    Order *pending = nullptr;
+    Order *ready[10] = {};
+    initialize_database(teaTypes, milkTypes, toppingTypes, database_path);
+    initialize_recipe(teaTypes, milkTypes, toppingTypes, recipes, numRecipes, recipe_path);
+    print_result(build_replacement_list(milkTypes, milkReplacements)); // Build replacement list
+
+    // Initial state
+    print_ingredients(teaTypes, milkTypes, toppingTypes);
+    print_replacement_cycle(milkReplacements);
+
+    // Order 1: Recipe 1 (Tea1, Milk1(stock=1), Topping1(stock=1)) - Should be perfect
+    print_result(create_order(pending, 1, "recipe1", recipes, numRecipes, Standard));
+    // Order 2: Recipe 3 (Tea3, Milk3(stock=0), Topping3(stock=1)) - Needs milk replacement (Milk4), topping ok
+    print_result(create_order(pending, 2, "recipe3", recipes, numRecipes, Standard));
+    // Order 3: Recipe 5 (Tea5, Milk5(stock=1), Topping5(stock=0)) - Milk ok, topping skipped
+    print_result(create_order(pending, 3, "recipe5", recipes, numRecipes, Standard));
+    // Order 4: Recipe 7 (Tea7, Milk7(stock=0), Topping7(stock=0)) - Needs milk replacement (Milk8), topping skipped
+    print_result(create_order(pending, 4, "recipe7", recipes, numRecipes, Standard));
+    // Order 5: Recipe 1 again, Milk1 stock is now 0. Needs replacement (Milk2)
+    print_result(create_order(pending, 5, "recipe1", recipes, numRecipes, Standard));
+    // Order 6: Recipe 3 again, Milk3 stock is 0, Milk4 stock is now 0. Needs replacement (Milk5)
+    print_result(create_order(pending, 6, "recipe3", recipes, numRecipes, Standard));
+     // Order 7: Recipe 9 (Tea9, Milk9(stock=0)) - Milk9 is not in replacement list (assuming it's not in db 5) or no replacement has stock. Should fail.
+    // Let's assume Milk9 exists but has stock 0 and no replacement available after others are used.
+    // We'll simulate this by trying to process an order that exhausts replacements.
+    // Let's use recipe 3 again until Milk5 runs out. Milk5 stock = 1 initially. Order 6 used it.
+    print_result(create_order(pending, 7, "recipe3", recipes, numRecipes, Standard)); // This should fail later if Milk5 is out.
+
+    print_pending_orders(pending);
+
+    cout << "Processing orders..." << endl;
+    print_result(get_order_ready(1, pending, ready, milkReplacements)); // Expect 1 (Perfect)
+    print_ingredients(teaTypes, milkTypes, toppingTypes); print_ready_orders(ready);
+    print_result(get_order_ready(2, pending, ready, milkReplacements)); // Expect 2 (Modified - Milk3 replaced by Milk4)
+    print_ingredients(teaTypes, milkTypes, toppingTypes); print_ready_orders(ready);
+    print_result(get_order_ready(3, pending, ready, milkReplacements)); // Expect 2 (Modified - Topping5 skipped)
+    print_ingredients(teaTypes, milkTypes, toppingTypes); print_ready_orders(ready);
+    print_result(get_order_ready(4, pending, ready, milkReplacements)); // Expect 2 (Modified - Milk7 replaced by Milk8, Topping7 skipped)
+    print_ingredients(teaTypes, milkTypes, toppingTypes); print_ready_orders(ready);
+    print_result(get_order_ready(5, pending, ready, milkReplacements)); // Expect 2 (Modified - Milk1 replaced by Milk2)
+    print_ingredients(teaTypes, milkTypes, toppingTypes); print_ready_orders(ready);
+    print_result(get_order_ready(6, pending, ready, milkReplacements)); // Expect 2 (Modified - Milk3 replaced by Milk5)
+    print_ingredients(teaTypes, milkTypes, toppingTypes); print_ready_orders(ready);
+    print_result(get_order_ready(7, pending, ready, milkReplacements)); // Expect 0 (No replacement for Milk3 as Milk4, Milk5 are out)
+    print_ingredients(teaTypes, milkTypes, toppingTypes); print_ready_orders(ready);
+    print_result(get_order_ready(99, pending, ready, milkReplacements)); // Expect 0 (Order not found)
+
+    cout << "Final pending orders:" << endl;
+    print_pending_orders(pending); // Should contain order 7 if it failed
+    cout << "Final ready orders:" << endl;
+    print_ready_orders(ready);
+    cout << "Final ingredients:" << endl;
+    print_ingredients(teaTypes, milkTypes, toppingTypes);
+
+    delete_database(teaTypes, milkTypes, toppingTypes);
+    delete_recipe(recipes, numRecipes);
+    delete_pending_orders(pending);
+    delete_ready_orders(ready);
+    delete_replacement_circle(milkReplacements);
+}
+
+// Test case for complex interactions: stock depletion, replacements, skips
+void test32()
+{
+    cout << "--- test32: Complex stock depletion and replacement ---" << endl;
+    const char *database_path = "data//5-database.txt"; // Needs stock variation
+    const char *recipe_path = "data//5-recipe.txt";
+
+    TeaType *teaTypes = nullptr;
+    MilkType *milkTypes = nullptr;
+    ToppingType *toppingTypes = nullptr;
+    ReplacementListNode *milkReplacements = nullptr;
+    Drink **recipes = nullptr;
+    int numRecipes = 0;
+    Order *pending = nullptr;
+    Order *ready[10] = {};
+    initialize_database(teaTypes, milkTypes, toppingTypes, database_path);
+    initialize_recipe(teaTypes, milkTypes, toppingTypes, recipes, numRecipes, recipe_path);
+    print_result(build_replacement_list(milkTypes, milkReplacements));
+
+    cout << "Initial State:" << endl;
+    print_ingredients(teaTypes, milkTypes, toppingTypes);
+    print_replacement_cycle(milkReplacements);
+
+    // Create orders designed to deplete specific ingredients
+    // Recipe1: Milk1(1), Topping1(1) -> Replacement Milk2(1)
+    // Recipe3: Milk3(0), Topping3(1) -> Replacement Milk4(1) -> Milk5(1)
+    // Recipe5: Milk5(1), Topping5(0) -> Replacement Milk6(1)
+    // Recipe7: Milk7(0), Topping7(0) -> Replacement Milk8(1)
+
+    // Order 1, 2 use Recipe 1 (depletes Milk1, then Milk2)
+    print_result(create_order(pending, 1, "recipe1", recipes, numRecipes, Standard));
+    print_result(create_order(pending, 2, "recipe1", recipes, numRecipes, Standard));
+    // Order 3, 4 use Recipe 3 (depletes Milk4, then Milk5)
+    print_result(create_order(pending, 3, "recipe3", recipes, numRecipes, Standard));
+    print_result(create_order(pending, 4, "recipe3", recipes, numRecipes, Standard));
+     // Order 5 uses Recipe 5 (depletes Milk6 as Milk5 is gone, skips Topping5)
+    print_result(create_order(pending, 5, "recipe5", recipes, numRecipes, Standard));
+    // Order 6 uses Recipe 7 (depletes Milk8, skips Topping7)
+    print_result(create_order(pending, 6, "recipe7", recipes, numRecipes, Standard));
+    // Order 7 uses Recipe 1 again (Milk1=0, Milk2=0 -> needs Milk3(0) -> Milk4(0) -> Milk5(0) -> Milk6(0) -> Milk7(0) -> Milk8(0) -> Fails)
+    print_result(create_order(pending, 7, "recipe1", recipes, numRecipes, Standard));
+    // Order 8 uses Recipe 3 again (Milk3=0, Milk4=0, Milk5=0 -> needs Milk6(0) -> Milk7(0) -> Milk8(0) -> Fails)
+    print_result(create_order(pending, 8, "recipe3", recipes, numRecipes, Standard));
+    // Order 9 uses Recipe 2 (Milk2(0), Topping2(1)) -> needs Milk3(0) -> Milk4(0) -> Milk5(0) -> Milk6(0) -> Milk7(0) -> Milk8(0) -> Fails
+    print_result(create_order(pending, 9, "recipe2", recipes, numRecipes, Standard));
+
+
+    cout << "Pending orders before processing:" << endl;
+    print_pending_orders(pending);
+
+    cout << "Processing orders..." << endl;
+    print_result(get_order_ready(1, pending, ready, milkReplacements)); // Uses Milk1. Result: 1
+    print_result(get_order_ready(2, pending, ready, milkReplacements)); // Uses Milk2. Result: 1
+    print_result(get_order_ready(3, pending, ready, milkReplacements)); // Uses Milk4. Result: 2
+    print_result(get_order_ready(4, pending, ready, milkReplacements)); // Uses Milk5. Result: 2
+    print_result(get_order_ready(5, pending, ready, milkReplacements)); // Needs Milk6(1). Skips Topping5. Result: 2
+    print_result(get_order_ready(6, pending, ready, milkReplacements)); // Needs Milk8(1). Skips Topping7. Result: 2
+    print_result(get_order_ready(7, pending, ready, milkReplacements)); // Needs Milk3(0) -> Milk4(0) -> Milk5(0) -> Milk6(0) -> Milk7(0) -> Milk8(0) -> Fails
+    print_result(get_order_ready(8, pending, ready, milkReplacements)); // Needs Milk4(0) -> Milk5(0) -> Milk6(0) -> Milk7(0) -> Milk8(0) -> Fails
+    print_result(get_order_ready(9, pending, ready, milkReplacements)); // Needs Milk2(0) -> Milk3(0) -> Milk4(0) -> Milk5(0) -> Milk6(0) -> Milk7(0) -> Milk8(0) -> Fails
+
+    cout << "Final pending orders:" << endl;
+    print_pending_orders(pending); // Should contain 7, 8, 9
+    cout << "Final ready orders:" << endl;
+    print_ready_orders(ready);
+    cout << "Final ingredients:" << endl;
+    print_ingredients(teaTypes, milkTypes, toppingTypes); // Check stock levels
+
+    delete_database(teaTypes, milkTypes, toppingTypes);
+    delete_recipe(recipes, numRecipes);
+    delete_pending_orders(pending);
+    delete_ready_orders(ready);
+    delete_replacement_circle(milkReplacements);
+}
+
+// Renamed from test_all
+void test33(int testNum){
+    cout << "--- test " << testNum << ": Comprehensive System Test ---" << endl;
     const char *database_path = "data//6-database.txt";
     const char *recipe_path =   "data//6-recipe.txt";
     const char* teaNameList[] = {
@@ -1089,8 +1372,14 @@ int main()
         case 26: test26(); break;
         case 27: test27(); break;
         case 28: test28(); break;
-        case 29: test_all(29); break;
+        case 29: test29(); break; // Added test
+        case 30: test30(); break; // Added test
+        case 31: test31(); break; // Added test
+        case 32: test32(); break; // Added test
+        case 33: test33(33); break; // Renamed test_all
 
         default: test0(); break;
     }
+
+    return 0;
 }
