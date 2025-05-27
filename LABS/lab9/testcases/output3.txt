@@ -1,0 +1,10 @@
+Enter the path of input file: ========================================
+Exam Time Table of RM2464
+========================================
+    Course ID   Course Name                           Exam Time    #Students
+0   COMP3111    Software_Engineering                    0 -- 120      87
+1   COMP2011    Programming_with_C++                  150 -- 300     200
+2   COMP3511    Operating_Systems                     350 -- 450     130
+========================================
+Number of (Valid) Applications: 9
+Number of Exams: 3
